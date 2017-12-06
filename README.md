@@ -95,7 +95,8 @@ Further description of this will be added later.
 #### editor/animation Folder
 
 ##### init.js
-This file describes an animation for the tests explanation or “try it”.            
+This file describes an animation for the tests explanation or “try it”.
+
 At `python: 'function name'` and `js: 'function name'` you can state the identifier
 your function has to be called with (line 11, 12).
 
