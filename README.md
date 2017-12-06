@@ -97,8 +97,9 @@ Further description of this will be added later.
 ##### init.js
 This file describes an animation for the tests explanation or “try it”.
 
-At `python: 'function name'` and `js: 'function name'` you can state the identifier
-your function has to be called with (line 11, 12).
+At `python: 'function name'` and `js: 'function name'` you can state the identifieryour function has to be called with
+
+(line 11, 12).
 
 It's **not necessary** to change it.
 
