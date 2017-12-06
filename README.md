@@ -65,7 +65,7 @@ Icons for the task are placed inside the `info/logo` folder.
 Icons are created as a pair: **disabled.svg** for unsolved tasks and **enabled.svg** for solved tasks.
 In the task runner you will see one of these where you can click on it.
 Icons should be created with specified icons' colors from our colors guide: `info/media/color.pdf`.
-Icons should be 128x128px and placed inside a grey colored block (size 116x116px) , outer corners rounded to a radius of 10px.
+Icons should be 128x128px and placed inside a grey colored block (size 116x116px) with outer corners rounded to a radius of 10px.
 You can use the given templates.
 
 #### story.html
@@ -92,8 +92,9 @@ Further description of this will be added later.
 #### editor/animation Folder
 
 ##### init.js
-This file describes an animation for the tests explanation or “try it”.       
-At `python: 'function name'` and `js: 'function name'` you can state the identifier your function is to be called with (line 11, 12). 
+This file describes an animation for the tests explanation or “try it”.            
+At `python: 'function name'` and `js: 'function name'` you can state the identifier
+your function has to be called with (line 11, 12). 
 It's **not necessary** to change it.
 Further description of this will be added later.
 
@@ -121,9 +122,10 @@ The files in this folder are for 'Check'.
 They contain a referee and additional files with your tests.
 
 ##### referee. py
-At `python: 'function name'` and `js: 'function name'` you can state the identifier your function is to be called with (line 41, 42).
-This file also contains a referee and additional files for tests; in the file itself you find a detailed description for its use.
+At `python: 'function name'` and `js: 'function name'` you can state the identifier 
+your function has to be called with (line 41, 42).
+This file also contains a referee and additional files for tests; in the file itself you find a detailed description how to use it.
 ##### tests. py
-Here you can add your test cases; in the file itself you find a detailed description for its use.
-Also, an example is included.
+At this file you can add your test cases; in the file itself you find a detailed description how to use it.
+Also, an example is included here.
 
