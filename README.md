@@ -69,9 +69,9 @@ Icons should be 128x128px and placed inside a grey colored block (size 116x116px
 You can use the given templates.
 
 #### story.html
-This is a funny story about the task, it does not need to
-explain the task's goal. A paragraph of div with the story
-class does not show in the editor's task description.
+This is a funny story about the task, it does not need to explain the task's goal.
+
+A paragraph of div with the story class does not show in the editor's task description.
 
 #### short_task_description.html
 A summary of the task.
@@ -83,10 +83,13 @@ A summary of the task.
 
 ##### options.json
 It's **not necessary** to change it.
+
 Further description of this will be added later.
 ##### templates.html
-This file describes layout and structure for the tests explanation or “try it”.     
+This file describes layout and structure for the tests explanation or “try it”.
+
 It's **not necessary** to change it.
+
 Further description of this will be added later.
 
 #### editor/animation Folder
@@ -94,13 +97,17 @@ Further description of this will be added later.
 ##### init.js
 This file describes an animation for the tests explanation or “try it”.            
 At `python: 'function name'` and `js: 'function name'` you can state the identifier
-your function has to be called with (line 11, 12). 
+your function has to be called with (line 11, 12).
+
 It's **not necessary** to change it.
+
 Further description of this will be added later.
 
 ##### init.css
-This file describes styles for the tests explanation or “try it”.       
+This file describes styles for the tests explanation or “try it”.
+
 It's **not necessary** to change it.
+
 Further description of this will be added later.
 
 #### editor/initial_code Folder
@@ -108,22 +115,28 @@ Further description of this will be added later.
 ##### js-node
 ##### python_3
 These 2 files hold the code which users will see as a starting template for the node.js  and the python3 interpretor.
+
 If you use strings for python3 you can use unicode strings.
 
 ### hints Folder
 
 ##### _slug.html
 You have the option to give some hints here.
+
 It’s **not necessary** to change it.
+
 Further description of this will be added later.
 
 ### verification Folder
 The files in this folder are for 'Check'.
+
 They contain a referee and additional files with your tests.
 
 ##### referee. py
-At `python: 'function name'` and `js: 'function name'` you can state the identifier 
-your function has to be called with (line 41, 42).
+At `python: 'function name'` and `js: 'function name'`
+
+you can state the identifier your function has to be called with (line 41, 42).
+
 This file also contains a referee and additional files for tests; in the file itself you find a detailed description how to use it.
 ##### tests. py
 At this file you can add your test cases; in the file itself you find a detailed description how to use it.
